@@ -55,3 +55,47 @@ p {
 .pri-text {
   color: #93cb52;
 }
+
+.l-heading{
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+
+.lead{
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.btn{
+  display: inline-block;
+  color: #fff;
+  background-color: #93cb52;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  border: none;
+}
+/* 
+**********************************
+Header Section
+**********************************
+*/
+
+#showcase{
+  background: #333 url(./image/showcase.jpg) no-repeat center center/cover;
+  height: 100vh;
+  color: #fff;
+}
+
+#showcase .showcase-content{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+   /* position: absolute;
+  top: 60px;
+  left:0; */
+  background-color: rgba(0,0,0,0.4);
+  
+}
