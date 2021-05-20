@@ -55,9 +55,16 @@ p {
 .pri-text {
   color: #93cb52;
 }
-
+.py-1{
+  padding: 2rem;
+}
 .l-heading{
   font-size: 4rem;
+  margin-bottom: 2rem;
+  line-height: 1.1;
+}
+.m-heading{
+  font-size: 2rem;
   margin-bottom: 2rem;
   line-height: 1.1;
 }
@@ -98,4 +105,33 @@ Header Section
   left:0; */
   background-color: rgba(0,0,0,0.4);
   
+}
+ 
+/* 
+**********************************
+What We Do Section
+**********************************
+*/
+
+.container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.items{
+  display: flex;
+}
+
+.item{
+  flex:1
+}
+.item i{
+  background-color: #93cb52;
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.item h3{
+margin-bottom: 1rem;
 }
