@@ -58,6 +58,25 @@ p {
 .py-1{
   padding: 2rem;
 }
+.py-2{
+  padding: 3rem;
+}
+.p-1{
+  padding: 0, 2rem;
+}
+.p-2{
+  padding: 0, 3rem;
+}
+
+.bg-light{
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark{
+  background: #333;
+  color: #fff;
+}
 .l-heading{
   font-size: 4rem;
   margin-bottom: 2rem;
@@ -135,3 +154,45 @@ What We Do Section
 .item h3{
 margin-bottom: 1rem;
 }
+
+/* 
+**********************************
+Who We Are Section
+**********************************
+*/
+
+#who{
+  display: flex;
+}
+
+#who div{
+  flex: 1;
+}
+#who .who-img{
+  background: url('./image/people.jpg') no-repeat center center/cover;
+}
+#who .who-we-are h3{
+ margin: 0.75rem 0;
+}
+
+ #who .who-we-are ul{
+   list-style: none;
+   line-height: 2.1rem;
+ }
+ 
+ .who-we-are ul li{
+   border-bottom: #444 dotted 1px;
+ } 
+
+ .our-client{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+
+ }
+  .our-client img{
+    display: block;
+    width: 60%;
+    margin: auto;
+    
+  }
