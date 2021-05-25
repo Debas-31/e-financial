@@ -21,7 +21,7 @@
            <li><a href="#contact">Contact</a></li>
        </ul>
     </nav>
-    <header id="showcase">
+    <header id="home">
         <div class="showcase-content">
             <h1 class="l-heading">The Sky is the Limit </h1>
             <p class="lead">You choose the right things on the right place, Let build and develop together the moment is today.  </p>
@@ -29,30 +29,31 @@
         </div>
     </header>
     <section id="what" class="bg-light py-1">
-            <div class="container">
+        
+            <div class="container py-1">
         <h2 class="m-heading"><span class="pri-text">What </span>We Do</h2>
         <div class="items">
-            <div class="item">
+            <div class="item py-1">
                 <i class="fas fa-university fa-2x"></i>
                 <h3>Investment Bank</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sequi.</p>
             </div>
-            <div class="item">
+            <div class="item py-1">
                 <i class="fas fa-book-reader fa-2x"></i>
                 <h3>
                     Portfolio Management</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sequi.</p>
             </div>
-            <div class="item">
+            <div class="item py-1">
                 <i class="fas fa-pencil-alt fa-2x"></i>
                 <h3>Tax & Custodial</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, sequi.</p></div>
         </div>
       </div>
     </section>
-    <section class="bg-dark " id="who">
+    <section class="bg-dark py-1" id="who">
         <div class="who-img"></div>
-        <div class="who-we-are py-1 ">
+        <div class="who-we-are p-1 ">
             <h2 class="m-heading">
                 <span class="pri-text">Who </span>We Are
             </h2>
@@ -68,7 +69,7 @@
         </div>
     </section>
     <!-- Section Clients -->
-    <section class="our-client">
+    <section class="our-client ">
         <h2 class="m-heading py-1"><span class="pri-text">Our</span> Clients</h2>
         <div class = "items ">
             <div><img src="./image/logos/logo1.png" alt="clients"></div>
@@ -78,5 +79,48 @@
             <div><img src="./image/logos/logo5.png" alt="clients"></div>
         </div>
     </section>
+    <section id="contact">
+        <div class="contact-form p-1 bg-pri">
+         <h2 class="m-heading">Contact Us</h2>
+         <p>Please use the form below to contact us</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" placeholder="Enter Message"></textarea>
+                </div>
+            <input type="button" value="Send" class="btn btn-dark">
+        </form>
+        </div>
+        <div class="map">
+
+        </div>
+    </section>
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!-- Main Js -->
+    <script src="main.js"></script>
+    <!-- Maps for Js -->
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyApLT_aZRA0ENxbgk9mBjvPrjIudNlAmzQ&callback=initMap">
+    </script>  
+    <!--Footer  -->
+<footer id="main-footer" class="bg-dark text-center py-1" >
+    <div class="container ">
+        <p>Copyright &copy; 2021, E-Financial, All right reserved</p>
+    </div>
+</footer>
 </body>
 </html>
+<!--  -->
