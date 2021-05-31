@@ -1,0 +1,76 @@
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+/* Align-items left */
+#what .items .item {
+  display: flex;
+  text-align: left;
+}
+
+/* Position Icon */
+#what .items .item i {
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-top: 0;
+}
+
+/* Smartphones  */
+@media (max-width: 500px) {
+  #nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #nav-bar .logo {
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+
+  #nav-bar ul {
+    padding: 0.5rem;
+  }
+
+  #nav-bar ul li a {
+    padding: 0.5rem;
+  }
+
+  #home {
+    height: 80vh;
+  }
+
+  .l-heading {
+    margin-top: -3rem;
+  }
+
+  #who {
+    display: block;
+  }
+
+  .our-client img {
+    width: 80%;
+  }
+
+  .our-client .items div:last-child {
+    display: none;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+
+  #contact .map {
+    height: 200px;
+    border-top: 4px solid #333;
+  }
+
+  /* #main-footer {
+    height: 35vh;
+    padding: 0.5rem;
+  }
+
+  #main-footer .container p {
+    margin-top: 2.5rem;
+  } */
+}

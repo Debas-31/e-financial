@@ -87,6 +87,10 @@ p {
   padding: 3rem;
 }
 
+.rt-1 {
+  margin-top: 2.5rem;
+}
+
 .bg-light {
   background: #f4f4f4;
   color: #333;
@@ -104,19 +108,24 @@ p {
 
 .l-heading {
   font-size: 4rem;
+  padding: 0.2rem 1rem;
   margin-bottom: 2rem;
   line-height: 1.1;
+  text-align: center;
 }
 
 .m-heading {
   font-size: 2rem;
   margin-bottom: 2rem;
   line-height: 1.1;
+  padding: 0.2rem 1rem;
+  text-align: center;
 }
 
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .btn {
@@ -126,6 +135,10 @@ p {
   padding: 0.75rem 2rem;
   border-radius: 5px;
   border: none;
+}
+
+.btn:hover {
+  background: #4d9105;
 }
 
 .btn-dark {
@@ -243,7 +256,8 @@ Who We Are Section
   display: flex;
 }
 
-#contact div {
+#contact .contact-form,
+#contact .map {
   flex: 1;
 }
 
