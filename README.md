@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Visit the Live Demo](https://mhdez221993.github.io/newsweek-clone/)
+[Visit the Live Demo](https://debas-31.github.io/e-financial/)
 
 ## Authors
 
